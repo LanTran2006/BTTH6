@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1744552922 source:d:\oop\bai8\nhanvien.cpp
+	"nhanvien.h"
+
+1744640302 d:\oop\bai8\nhanvien.h
+	<bits/stdc++.h>
+
+1744640404 source:d:\oop\bai8\main.cpp
+	"nhanvien.h"
+

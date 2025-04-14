@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1743563969 source:d:\oop\bai7\main.cpp
+	"bai7.h"
+
+1743564864 d:\oop\bai7\bai7.h
+	<bits/stdc++.h>
+
+1744637945 source:d:\oop\bai7\bai7.cpp
+	"bai7.h"
+	<sstream>
+
