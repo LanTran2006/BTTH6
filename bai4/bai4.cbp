@@ -32,8 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="bai4.cpp" />
-		<Unit filename="bai4.h" />
+		<Unit filename="cDate.cpp" />
+		<Unit filename="cDate.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

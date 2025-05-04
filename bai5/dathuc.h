@@ -1,27 +1,25 @@
 #ifndef DATHUC_H_INCLUDED
 #define DATHUC_H_INCLUDED
-
 #include <bits/stdc++.h>
 using namespace std;
 
 class DaThuc {
 private:
-    int bac;
-    vector<double> hs;
+    vector<int> he_so;
+    void chuan_hoa();
 
 public:
     DaThuc();
-    DaThuc(int bac);
+    DaThuc(const vector<int>& hs);
 
-    void nhap();
-    void xuat() const;
-    double tinhGiaTri(double x) const;
+    friend istream& operator>>(istream& is, DaThuc& dt);
+    friend ostream& operator<<(ostream& os, const DaThuc& dt);
 
-    DaThuc cong(const DaThuc& other) const;
-    DaThuc tru(const DaThuc& other) const;
+    DaThuc operator+(const DaThuc& dt) const;
+    DaThuc operator-(const DaThuc& dt) const;
+    DaThuc operator*(const DaThuc& dt) const;
+
+    int operator()(int x) const;
 };
 
-
-
-#endif
-
+#endif // DATHUC_H_INCLUDED

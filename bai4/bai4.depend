@@ -1,11 +1,10 @@
 # depslib dependency file v1.0
-1743560833 source:d:\oop\bai4\bai4.cpp
-	"bai4.h"
+1746283628 source:d:\oop\bai4\cdate.cpp
+	"cdate.h"
+
+1744771069 d:\oop\bai4\cdate.h
 	<bits/stdc++.h>
 
-1744180450 d:\oop\bai4\bai4.h
-
-1743560869 source:d:\oop\bai4\main.cpp
-	<bits/stdc++.h>
-	"bai4.h"
+1584205420 source:d:\oop\bai4\main.cpp
+	<iostream>
 

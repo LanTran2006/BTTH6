@@ -1,23 +1,43 @@
-#include "DaGiac.h"
+#include "phanso.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 int main() {
-    DaGiac polygon;
-    polygon.Nhap();
+    PhanSo a, b;
 
-    cout << "\nThong tin da giac vua nhap:\n";
-    polygon.Xuat();
+    // Nhap hai phan so
+    cout << "Nhap phan so thu nhat:\n";
+    cin >> a;
+    cout << "Nhap phan so thu hai:\n";
+    cin >> b;
 
-    polygon.tinhTien(2, 3);
-    cout << "\nSau khi tinh tien (2,3):\n";
-    polygon.Xuat();
+    // Hien thi phan so
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
 
-    polygon.phongTo(2);
-    cout << "\nSau khi phong to ty le 2:\n";
-    polygon.Xuat();
+    // Tinh toan cac phep + - * /
+    PhanSo cong = a + b;
+    PhanSo tru = a - b;
+    PhanSo nhan = a * b;
+    PhanSo chia = a / b;
 
-    polygon.quay(45);
-    cout << "\nSau khi quay 45 do:\n";
-    polygon.Xuat();
+    // So sanh hai phan so
+    bool bang = (a == b);
+    bool khongBang = (a != b);
+    bool nhoHon = (a < b);
+    bool lonHon = (a > b);
+
+    //  ket qua tinh toan
+    cout << "a + b = " << cong << endl;
+    cout << "a - b = " << tru << endl;
+    cout << "a * b = " << nhan << endl;
+    cout << "a / b = " << chia << endl;
+
+    // ket qua so sanh
+    cout << "a == b => " << (bang ? "true" : "false") << endl;
+    cout << "a != b => " << (khongBang ? "true" : "false") << endl;
+    cout << "a < b => " << (nhoHon ? "true" : "false") << endl;
+    cout << "a > b => " << (lonHon ? "true" : "false") << endl;
 
     return 0;
 }

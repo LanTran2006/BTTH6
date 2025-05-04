@@ -1,26 +1,39 @@
-#include <bits/stdc++.h>
-#include"bai4.h"
+#include "cDate.h"
 using namespace std;
 
 int main()
 {
-     cArray arr(10);
-    cout << "Mang ban dau: ";
-    arr.xuatMang();
+    CDate d1, d2;
 
-    int x = 10;
-    cout << "So lan xuat hien cua " << x << ": " << arr.demXuatHien(x) << endl;
-    cout << "Mang co tang dan khong? " << (arr.tangDan() ? "Co" : "Khong") << endl;
-    cout << "Phan le nho nhat: " << arr.phanLeNhoNhat() << endl;
-    cout << "So nguyen to lon nhat: " << arr.soNguyenToLonNhat() << endl;
+    cout << "Nhap ngay thang nam cho d1:\n";
+    cin >> d1;
+    cout << "Nhap ngay thang nam cho d2:\n";
+    cin >> d2;
 
-    arr.sapXepTangDan();
-    cout << "Mang sau khi sap xep tang dan: ";
-    arr.xuatMang();
+    cout << "\nNgay d1: " << d1 << endl;
+    cout << "Ngay d2: " << d2 << endl;
 
-    arr.sapXepGiamDan();
-    cout << "Mang sau khi sap xep giam dan: ";
-    arr.xuatMang();
+    // cong
+    cout << "\nNgay d1 + 10 ngay: " << d1 + 10 << endl;
 
+    // tru
+    cout << "Ngay d1 - 5 ngay: " << d1 - 5 << endl;
+
+    // khoang cach giua hai ngay
+    cout << "Khoang cach giua d1 va d2: " << (d1 - d2) << " ngay" << endl;
+
+    //  ++d1
+    cout << "\nTang 1 ngay ++d1: " << ++d1 << endl;
+
+    // d1++
+    cout << "Tang 1 ngay  d1++: " << d1++ << endl;
+    cout << "Sau khi tang d1: " << d1 << endl;
+
+    // --d1
+    cout << "\nGiam 1 ngay  --d1: " << --d1 << endl;
+
+    // d1--
+    cout << "Giam 1 ngay d1--: " << d1-- << endl;
+    cout << "Sau khi giam d1: " << d1 << endl;
     return 0;
 }
