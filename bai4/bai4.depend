@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1748419485 source:d:\oop\bai4\congty.cpp
+	"congty.h"
+
+1748419274 d:\oop\bai4\congty.h
+	<bits/stdc++.h>
+
+1748419541 source:d:\oop\bai4\main.cpp
+	"congty.h"
+

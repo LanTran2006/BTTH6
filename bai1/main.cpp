@@ -1,14 +1,16 @@
-#include "giaodich.h"
+#include "nhanvien.h"
 
 int main() {
-    QuanLyGiaoDich ql;
-    ql.nhapDanhSachVang();
-    ql.nhapDanhSachTienTe();
+    QuanLyNhanVien ql;
+    ql.nhap();
 
-    ql.xuatGiaoDichVangMax();
-    ql.xuatGiaoDichEuroMin();
-    ql.xuatGiaoDichTren1Ty();
+    cout << "\nDanh sach nhan vien:\n";
+    ql.xuat();
+
+    cout << "\nTong luong: " << ql.tinhTongLuong() << endl;
+    
+    ql.nhanVienSanXuatLuongThapNhat();
+    ql.nhanVienVanPhongTuoiCaoNhat();
 
     return 0;
 }
-

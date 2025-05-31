@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1748421417 source:d:\oop\bai3\main.cpp
+	"sinhvien.h"
+
+1748421430 d:\oop\bai3\sinhvien.h
+	<bits/stdc++.h>
+
+1748421441 source:d:\oop\bai3\sinhvien.cpp
+	"sinhvien.h"
+
