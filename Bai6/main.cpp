@@ -1,9 +1,8 @@
-#include <iostream>
+#include "khachhang.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello world!" << endl;
+int main() {
+    CongTy cty;
+    cty.docFile("XYZ.INP");
+    cty.ghiFile("XYZ.OUT");
     return 0;
 }
