@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1748485154 source:d:\oop\bai5\main.cpp
+	"nongtrai.h"
+
+1748485161 d:\oop\bai5\nongtrai.h
+	<bits/stdc++.h>
+

@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1748415940 source:d:\oop\bai1\main.cpp
+1748576542 source:d:\oop\bai1\main.cpp
 	"nhanvien.h"
 
-1748416015 d:\oop\bai1\nhanvien.h
+1748576607 d:\oop\bai1\nhanvien.h
 	<bits/stdc++.h>
 
-1748415940 source:d:\oop\bai1\nhanvien.cpp
+1748417408 source:d:\oop\bai1\nhanvien.cpp
+	<bits/stdc++.h>
 	"nhanvien.h"
 

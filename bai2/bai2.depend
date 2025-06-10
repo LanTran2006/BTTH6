@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1748421180 source:d:\oop\bai2\main.cpp
+	"giaodich.h"
+
+1748421208 d:\oop\bai2\giaodich.h
+	<bits/stdc++.h>
+

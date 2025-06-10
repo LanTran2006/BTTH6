@@ -17,7 +17,7 @@ void GiaSuc::tangSoLuong(int slMoi) {
 Bo::Bo(int sl) : GiaSuc(sl) {}
 
 string Bo::keu() {
-    return "Cow: Ò ò ò!";
+    return "Cow: o o o!";
 }
 
 int Bo::sinhCon() {
